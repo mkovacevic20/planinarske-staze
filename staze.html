@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Staze | Planinarske staze Hrvatske</title>
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="StazeHR – početna">
+        <svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M2 43 L17 15 L24.5 27 L31 18 L46 43 Z" fill="currentColor"/>
+          <path class="ridge" d="M17 15 L12.2 24 L15.5 22.5 L17.8 25 L20.6 21.4 Z"/>
+          <path class="ridge" d="M31 18 L27.6 23.6 L30.2 22.6 L32.2 24.6 L34.3 23.3 Z"/>
+          <circle cx="37" cy="9" r="6.5" fill="#c62f28"/>
+          <circle cx="37" cy="9" r="2.8" fill="#fff"/>
+        </svg>
+        Staze<span>HR</span>
+      </a>
+      <nav class="main-nav" aria-label="Glavna navigacija">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Početna</a></li>
+          <li><a href="staze.html" class="active">Staze</a></li>
+          <li><a href="savjeti.html">Savjeti i oprema</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Promijeni temu">🌙</button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Otvori izbornik" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-title">
+      <div class="container">
+        <h1>Staze</h1>
+        <p>Filtriraj staze po težini, regiji i trajanju ili potraži po imenu.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+
+        <form class="filters" id="filters" onsubmit="return false;">
+          <input type="search" id="search" placeholder="Pretraži po imenu…">
+
+          <select id="filter-tezina">
+            <option value="">Sve težine</option>
+            <option value="lako">Lako</option>
+            <option value="srednje">Srednje</option>
+            <option value="tesko">Teško</option>
+          </select>
+
+          <select id="filter-regija">
+            <option value="">Sve regije</option>
+            <option value="Zagreb i okolica">Zagreb i okolica</option>
+            <option value="Gorski kotar">Gorski kotar</option>
+            <option value="Velebit">Velebit</option>
+            <option value="Primorje i Istra">Primorje i Istra</option>
+            <option value="Dalmacija">Dalmacija</option>
+            <option value="Slavonija">Slavonija</option>
+          </select>
+
+          <select id="filter-trajanje">
+            <option value="">Bilo koje trajanje</option>
+            <option value="3">Do 3 h</option>
+            <option value="5">Do 5 h</option>
+            <option value="99">Više od 5 h</option>
+          </select>
+
+          <button type="button" class="btn btn-outline" id="filter-reset">Poništi</button>
+        </form>
+
+        <p class="result-count" id="result-count"></p>
+
+        <div class="card-grid" id="trail-list"></div>
+
+        <aside class="my-trails">
+          <h2><span class="marker"></span>Moje staze</h2>
+          <ul id="my-trails-list"></ul>
+        </aside>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 StazeHR</p>
+      <p>U nuždi: <strong>112</strong> (HGSS)</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="data/staze.js"></script>
+  <script src="js/staze.js"></script>
+</body>
+</html>

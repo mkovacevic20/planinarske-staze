@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Planinarske staze Hrvatske</title>
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo" aria-label="StazeHR – početna">
+        <svg class="logo-mark" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M2 43 L17 15 L24.5 27 L31 18 L46 43 Z" fill="currentColor"/>
+          <path class="ridge" d="M17 15 L12.2 24 L15.5 22.5 L17.8 25 L20.6 21.4 Z"/>
+          <path class="ridge" d="M31 18 L27.6 23.6 L30.2 22.6 L32.2 24.6 L34.3 23.3 Z"/>
+          <circle cx="37" cy="9" r="6.5" fill="#c62f28"/>
+          <circle cx="37" cy="9" r="2.8" fill="#fff"/>
+        </svg>
+        Staze<span>HR</span>
+      </a>
+
+      <nav class="main-nav" aria-label="Glavna navigacija">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html" class="active">Početna</a></li>
+          <li><a href="staze.html">Staze</a></li>
+          <li><a href="savjeti.html">Savjeti i oprema</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle" id="theme-toggle" aria-label="Promijeni temu">🌙</button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Otvori izbornik" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero" aria-roledescription="slideshow" aria-label="Fotografije hrvatskih planina">
+      <div class="hero-slides">
+        <img class="hero-slide is-active" src="img/velebit-kiza.jpg"
+             alt="Vapnenačke stijene Velebita s pogledom na more"
+             data-place="Velebit, pogled s Kize"
+             data-credit="Branko Radovanović, CC BY-SA 3.0"
+             data-source="https://commons.wikimedia.org/wiki/File:Kiza_Velebit_panorama_20130921_4801P.jpg">
+        <img class="hero-slide" src="img/risnjak.jpg"
+             alt="Stjenoviti vrh Risnjaka i Schlosserov dom među klekovinom"
+             data-place="Risnjak i Schlosserov dom"
+             data-credit="Lan Glad, CC BY-SA 4.0"
+             data-source="https://commons.wikimedia.org/wiki/File:Pogled_na_Risnjak_i_Schlosserov_dom.jpg">
+        <img class="hero-slide" src="img/vidova-gora.jpg"
+             alt="Vidova gora na Braču iznad plaže Zlatni rat"
+             data-place="Vidova gora, Brač"
+             data-credit="dronepicr, CC BY 2.0"
+             data-source="https://commons.wikimedia.org/wiki/File:Zlatni_rat_Beach_with_a_view_to_the_peak_Vidova_gora_in_Bol,_Croatia_(48608806901).jpg">
+        <img class="hero-slide" src="img/biokovo-sveti-jure.jpg"
+             alt="Kameniti vrh Sveti Jure na Biokovu s odašiljačem"
+             data-place="Sveti Jure, Biokovo"
+             data-credit="SKas, CC BY-SA 4.0"
+             data-source="https://commons.wikimedia.org/wiki/File:The_highest_peak_Sv_Jure_(1762_m)_in_Biokovo_Nature_Park.jpg">
+      </div>
+
+      <div class="container hero-content">
+        <p class="eyebrow">Planinarski vodič kroz Hrvatsku</p>
+        <h1>Otkrij hrvatske planine</h1>
+        <p class="hero-lead">Od Medvednice do Biokova – pronađi stazu po svojoj mjeri, pripremi opremu i kreni.</p>
+        <div class="hero-buttons">
+          <a href="staze.html" class="btn btn-accent">Pronađi stazu</a>
+          <a href="savjeti.html" class="btn btn-ghost">Što ponijeti?</a>
+        </div>
+      </div>
+
+      <div class="container hero-bar">
+        <p class="hero-caption" aria-live="polite">
+          <strong id="hero-place">Velebit, pogled s Kize</strong>
+          <a id="hero-credit" href="https://commons.wikimedia.org/wiki/File:Kiza_Velebit_panorama_20130921_4801P.jpg" target="_blank" rel="noopener">Foto: Branko Radovanović, CC BY-SA 3.0</a>
+        </p>
+        <div class="hero-controls">
+          <button type="button" class="hero-pause" id="hero-pause" aria-label="Zaustavi izmjenu fotografija">❚❚</button>
+          <div class="hero-dots" id="hero-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Ukratko">
+      <ul class="container">
+        <li><strong>12</strong><span>opisanih staza</span></li>
+        <li><strong>6</strong><span>planinskih regija</span></li>
+        <li><strong>1831 m</strong><span>Dinara, najviši vrh</span></li>
+        <li><strong>1,5–8 h</strong><span>od šetnje do cjelodnevne ture</span></li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2><span class="marker"></span>Istaknute staze</h2>
+          <p>Tri klasika za početak – od lagane šetnje Velebitom do uspona od mora do vrha Biokova.</p>
+        </div>
+        <div class="card-grid" id="featured-trails"></div>
+        <p class="section-link"><a href="staze.html" class="btn btn-outline">Sve staze →</a></p>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2><span class="marker"></span>Galerija</h2>
+          <p>Klikni na fotografiju za prikaz preko cijelog zaslona. Listaj strelicama ili prevlačenjem.</p>
+        </div>
+
+        <div class="gallery" id="gallery">
+          <figure class="gallery-item">
+            <button type="button" class="gallery-btn">
+              <img src="img/velebit-kiza.jpg" alt="Vapnenačke stijene Velebita s pogledom na more" loading="lazy"
+                   data-caption="Velebit, pogled s Kize" data-credit="Branko Radovanović, CC BY-SA 3.0"
+                   data-source="https://commons.wikimedia.org/wiki/File:Kiza_Velebit_panorama_20130921_4801P.jpg">
+            </button>
+            <figcaption>Velebit</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button type="button" class="gallery-btn">
+              <img src="img/premuziceva-staza.jpg" alt="Planinari na Premužićevoj stazi kroz jesensku šumu" loading="lazy"
+                   data-caption="Premužićeva staza, Sjeverni Velebit" data-credit="rom@nski photo, CC BY 2.0"
+                   data-source="https://commons.wikimedia.org/wiki/File:Premu%C5%BEi%C4%87_trail_along_the_abyss.jpg">
+            </button>
+            <figcaption>Premužićeva staza</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button type="button" class="gallery-btn">
+              <img src="img/risnjak.jpg" alt="Stjenoviti vrh Risnjaka i Schlosserov dom" loading="lazy"
+                   data-caption="Risnjak i Schlosserov dom" data-credit="Lan Glad, CC BY-SA 4.0"
+                   data-source="https://commons.wikimedia.org/wiki/File:Pogled_na_Risnjak_i_Schlosserov_dom.jpg">
+            </button>
+            <figcaption>Risnjak</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button type="button" class="gallery-btn">
+              <img src="img/klek.jpg" alt="Klek sa svojim stjenovitim vrhom iznad šuma kod Ogulina" loading="lazy"
+                   data-caption="Klek iznad Ogulina" data-credit="Zorro.mstitel01, javno vlasništvo"
+                   data-source="https://commons.wikimedia.org/wiki/File:Klek_Mountain,_above_Ogulin_(Croatia).JPG">
+            </button>
+            <figcaption>Klek</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button type="button" class="gallery-btn">
+              <img src="img/ucka-vojak.jpg" alt="Kameni vidikovac na vrhu Vojak na Učki" loading="lazy"
+                   data-caption="Vojak, najviši vrh Učke" data-credit="Martin Sommer, CC BY-SA 4.0"
+                   data-source="https://commons.wikimedia.org/wiki/File:Gipfel_des_Vojak.JPG">
+            </button>
+            <figcaption>Učka</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button type="button" class="gallery-btn">
+              <img src="img/vidova-gora.jpg" alt="Vidova gora na Braču iznad plaže Zlatni rat" loading="lazy"
+                   data-caption="Vidova gora iznad Zlatnog rata, Brač" data-credit="dronepicr, CC BY 2.0"
+                   data-source="https://commons.wikimedia.org/wiki/File:Zlatni_rat_Beach_with_a_view_to_the_peak_Vidova_gora_in_Bol,_Croatia_(48608806901).jpg">
+            </button>
+            <figcaption>Vidova gora</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button type="button" class="gallery-btn">
+              <img src="img/paklenica.jpg" alt="Šumoviti vapnenački brežuljci u Paklenici" loading="lazy"
+                   data-caption="Paklenica, kraj oko Anića kuka" data-credit="Pudelek (Marcin Szala), CC BY-SA 4.0"
+                   data-source="https://commons.wikimedia.org/wiki/File:Paklenica_panorama_-_near_Ani%C4%87a_Kuk.jpg">
+            </button>
+            <figcaption>Paklenica</figcaption>
+          </figure>
+          <figure class="gallery-item">
+            <button type="button" class="gallery-btn">
+              <img src="img/biokovo-sveti-jure.jpg" alt="Kameniti vrh Sveti Jure na Biokovu" loading="lazy"
+                   data-caption="Sveti Jure, Biokovo" data-credit="SKas, CC BY-SA 4.0"
+                   data-source="https://commons.wikimedia.org/wiki/File:The_highest_peak_Sv_Jure_(1762_m)_in_Biokovo_Nature_Park.jpg">
+            </button>
+            <figcaption>Biokovo</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2><span class="marker"></span>Planine po regijama</h2>
+          <p>Odaberi regiju i odmah vidi sve staze u njoj.</p>
+        </div>
+
+        <div class="region-grid">
+          <a class="region-tile" href="staze.html?regija=Gorski%20kotar" data-regija="Gorski kotar">
+            <img src="img/risnjak.jpg" alt="" loading="lazy">
+            <div class="region-body">
+              <span class="region-count"></span>
+              <h3>Gorski kotar</h3>
+              <p>Risnjak, Klek, Bijele i Samarske stijene</p>
+            </div>
+          </a>
+          <a class="region-tile" href="staze.html?regija=Velebit" data-regija="Velebit">
+            <img src="img/velebit-kiza.jpg" alt="" loading="lazy">
+            <div class="region-body">
+              <span class="region-count"></span>
+              <h3>Velebit</h3>
+              <p>Najveća hrvatska planina, Paklenica i Premužićeva staza</p>
+            </div>
+          </a>
+          <a class="region-tile" href="staze.html?regija=Dalmacija" data-regija="Dalmacija">
+            <img src="img/biokovo-sveti-jure.jpg" alt="" loading="lazy">
+            <div class="region-body">
+              <span class="region-count"></span>
+              <h3>Dalmacija</h3>
+              <p>Biokovo, Dinara i Vidova gora s pogledom na more</p>
+            </div>
+          </a>
+          <a class="region-tile" href="staze.html?regija=Primorje%20i%20Istra" data-regija="Primorje i Istra">
+            <img src="img/ucka-vojak.jpg" alt="" loading="lazy">
+            <div class="region-body">
+              <span class="region-count"></span>
+              <h3>Primorje i Istra</h3>
+              <p>Učka i vidikovci nad Kvarnerom</p>
+            </div>
+          </a>
+          <a class="region-tile" href="staze.html?regija=Zagreb%20i%20okolica" data-regija="Zagreb i okolica">
+            <img src="img/sljeme.jpg" alt="" loading="lazy">
+            <div class="region-body">
+              <span class="region-count"></span>
+              <h3>Zagreb i okolica</h3>
+              <p>Medvednica i Samoborsko gorje, pola sata od grada</p>
+            </div>
+          </a>
+          <a class="region-tile" href="staze.html?regija=Slavonija" data-regija="Slavonija">
+            <img src="img/papuk.jpg" alt="" loading="lazy">
+            <div class="region-body">
+              <span class="region-count"></span>
+              <h3>Slavonija</h3>
+              <p>Bukove šume Papuka i jezero Jankovac</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Pregled fotografije">
+    <figure>
+      <img id="lightbox-img" src="" alt="">
+      <figcaption>
+        <strong id="lightbox-caption"></strong>
+        <a id="lightbox-credit" href="#" target="_blank" rel="noopener"></a>
+        · <span class="lb-counter" id="lightbox-counter"></span>
+      </figcaption>
+    </figure>
+    <button type="button" class="lb-btn lb-close" id="lightbox-close" aria-label="Zatvori" autofocus>✕</button>
+    <button type="button" class="lb-btn lb-prev" id="lightbox-prev" aria-label="Prethodna fotografija">‹</button>
+    <button type="button" class="lb-btn lb-next" id="lightbox-next" aria-label="Sljedeća fotografija">›</button>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 StazeHR</p>
+      <p>U nuždi: <strong>112</strong> (HGSS)</p>
+      <details class="photo-credits">
+        <summary>Izvori fotografija (Wikimedia Commons)</summary>
+        <ul>
+          <li>Velebit, pogled s Kize – Branko Radovanović, CC BY-SA 3.0</li>
+          <li>Risnjak i Schlosserov dom – Lan Glad, CC BY-SA 4.0</li>
+          <li>Vidova gora iznad Zlatnog rata – dronepicr, CC BY 2.0</li>
+          <li>Sveti Jure, Biokovo – SKas, CC BY-SA 4.0</li>
+          <li>Premužićeva staza – rom@nski photo, CC BY 2.0</li>
+          <li>Paklenica – Pudelek (Marcin Szala), CC BY-SA 4.0</li>
+          <li>Klek – Zorro.mstitel01, javno vlasništvo</li>
+          <li>Vojak, Učka – Martin Sommer, CC BY-SA 4.0</li>
+          <li>Papuk – Gpavic, CC BY-SA 3.0</li>
+          <li>Šuma na Sljemenu – Filipa Beroš, CC BY 3.0</li>
+        </ul>
+      </details>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="data/staze.js"></script>
+  <script src="js/staze.js"></script>
+  <script src="js/galerija.js"></script>
+</body>
+</html>
