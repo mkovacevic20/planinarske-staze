@@ -1,0 +1,155 @@
+StazeHR – baza znanja za chatbot
+
+OPSEG I PRAVILA ODGOVARANJA
+Odgovaraj na hrvatskom i koristi samo podatke navedene u ovoj bazi. Trajanje, duljina, visinska razlika, polazište, vrh i opis u nastavku podaci su web-stranice; nemoj ih nadopunjavati pretpostavkama.
+Web-stranica ne sadrži podatke uživo o vremenu, stanju staza, zatvaranjima, radnom vremenu ni dostupnosti planinarskih domova. Za takva pitanja reci da to treba provjeriti kod službenih izvora prije polaska.
+Preporuka nije zamjena za procjenu vlastite kondicije i aktualnih uvjeta. Drži se markiranih staza, obavijesti nekoga o planu izleta, a u nuždi nazovi 112.
+
+TEŽINE STAZA
+Lako: kraća staza bez većih uspona, pogodna za početnike i obitelji.
+Srednje: potrebna je osnovna kondicija; mogući su strmiji dijelovi.
+Teško: dug i strm uspon za iskusne planinare s dobrom kondicijom.
+
+STAZE
+
+1. Sljeme preko Kraljičinog zdenca
+Regija: Zagreb i okolica
+Težina: srednje
+Trajanje: 2,5 h
+Duljina: 6 km
+Visinska razlika: 690 m
+Polazište: Kraljičin zdenac, Gračani (Zagreb)
+Vrh: Sljeme (1033 m)
+Opis: Najpopularniji uspon na Medvednicu. Staza vodi šumom uz potok i slapove do vrha Sljeme, gdje se nalaze planinarski domovi i vidikovac.
+
+2. Japetić iz Šoićeve kuće
+Regija: Zagreb i okolica
+Težina: lako
+Trajanje: 1,5 h
+Duljina: 4 km
+Visinska razlika: 300 m
+Polazište: Šoićeva kuća, Samoborsko gorje
+Vrh: Japetić (879 m)
+Opis: Kratka i ugodna obiteljska tura na najviši vrh Samoborskog gorja. S vidikovca na vrhu za lijepa vremena pogled seže do Zagreba i Žumberka.
+
+3. Risnjak iz Vilja
+Regija: Gorski kotar
+Težina: srednje
+Trajanje: 3 h
+Duljina: 7 km
+Visinska razlika: 700 m
+Polazište: Vilje kod Crnog Luga (NP Risnjak)
+Vrh: Veliki Risnjak (1528 m)
+Opis: Staza kroz gustu bukovo-jelovu šumu nacionalnog parka do Schlosserovog doma i stjenovitog vrha Risnjaka s pogledom na Kvarner.
+
+4. Klek iz Bjelskog
+Regija: Gorski kotar
+Težina: srednje
+Trajanje: 2 h
+Duljina: 5 km
+Visinska razlika: 580 m
+Polazište: Bjelsko kod Ogulina
+Vrh: Klek (1181 m)
+Opis: Uspon na legendarnu planinu vještica iznad Ogulina. Završni dio vodi po stijeni uz pomoć sajli, a s vrha se pruža pogled na Ogulin i Bjelolasicu.
+
+5. Premužićeva staza: Zavižan – Rossijeva koliba
+Regija: Velebit
+Težina: lako
+Trajanje: 3 h
+Duljina: 10 km
+Visinska razlika: 300 m
+Polazište: Planinarski dom Zavižan
+Vrh: Rossijeva koliba (oko 1580 m)
+Opis: Najljepši dio Premužićeve staze kroz Hajdučke i Rožanske kukove. Staza je gotovo ravna i uređena, a prolazi kroz krajolik Sjevernog Velebita.
+
+6. Velika Paklenica do planinarskog doma
+Regija: Velebit
+Težina: lako
+Trajanje: 2 h
+Duljina: 6 km
+Visinska razlika: 450 m
+Polazište: Ulaz u NP Paklenica, Starigrad
+Vrh: Planinarski dom Paklenica (oko 480 m)
+Opis: Šetnja kanjonom Velike Paklenice uz Anića kuk i penjališta, pored bunkera Tita, do planinarskog doma u šumi.
+
+7. Vaganski vrh iz Velike Paklenice
+Regija: Velebit
+Težina: teško
+Trajanje: 8 h
+Duljina: 14 km
+Visinska razlika: 1700 m
+Polazište: Ulaz u NP Paklenica, Starigrad
+Vrh: Vaganski vrh (1757 m)
+Opis: Dugačka tura na najviši vrh Velebita. Preporučuje se noćenje u planinarskom domu Paklenica ili skloništu, te dovoljno vode jer izvora gotovo nema.
+
+8. Vojak s Poklona
+Regija: Primorje i Istra
+Težina: lako
+Trajanje: 1,5 h
+Duljina: 4 km
+Visinska razlika: 480 m
+Polazište: Prijevoj Poklon, Učka
+Vrh: Vojak (1401 m)
+Opis: Kratak uspon na najviši vrh Učke s kamenim vidikovcem. Za vedra dana vidi se cijeli Kvarner, otoci, pa čak i Alpe.
+
+9. Sveti Jure iz Makarske
+Regija: Dalmacija
+Težina: teško
+Trajanje: 6 h
+Duljina: 10 km
+Visinska razlika: 1760 m
+Polazište: Makarska (zaseok Makar)
+Vrh: Sveti Jure (1762 m)
+Opis: Zahtjevan uspon od mora do najvišeg vrha Biokova. Staza je strma i izložena suncu, pa je ljeti treba krenuti rano ujutro i ponijeti puno vode.
+
+10. Dinara iz Glavaša
+Regija: Dalmacija
+Težina: teško
+Trajanje: 6 h
+Duljina: 12 km
+Visinska razlika: 1300 m
+Polazište: Glavaš kod Kijeva
+Vrh: Dinara (1831 m)
+Opis: Uspon na najviši vrh Hrvatske kroz kamenjar i planinske pašnjake. Staza je duga i bez hlada, a vrijeme se na Dinari brzo mijenja.
+
+11. Vidova gora iz Bola
+Regija: Dalmacija
+Težina: srednje
+Trajanje: 3 h
+Duljina: 6 km
+Visinska razlika: 770 m
+Polazište: Bol, otok Brač
+Vrh: Vidova gora (778 m)
+Opis: Uspon na najviši vrh jadranskih otoka. S vrha se pruža poznati pogled na Zlatni rat, Hvar i Pelješac.
+
+12. Papuk iz Jankovca
+Regija: Slavonija
+Težina: lako
+Trajanje: 2,5 h
+Duljina: 8 km
+Visinska razlika: 480 m
+Polazište: Jankovac (Park prirode Papuk)
+Vrh: Papuk (953 m)
+Opis: Staza počinje kod jezera i slapa Skakavac na Jankovcu i vodi bukovim šumama do najvišeg vrha Papuka.
+
+SAVJETI ZA PRIPREMU
+Odaberi stazu koja odgovara kondiciji svih sudionika. Prije polaska provjeri duljinu, trajanje, visinsku razliku i označene putove.
+Provjeri vremensku prognozu i upozorenja za područje. Po lošem vremenu ili nagloj promjeni uvjeta odgodi izlet.
+Obavijesti nekoga kamo ideš i kada se planiraš vratiti. Drži se markirane staze i čuvaj bateriju mobitela.
+
+CHECKLISTA OPREME
+- Planinarske cipele ili čvrsta obuća
+- Ruksak prilagođen izletu
+- Dovoljno vode
+- Hrana i međuobrok
+- Slojevita odjeća
+- Jakna za kišu i vjetar
+- Karta ili navigacija s izvanmrežnom kartom
+- Napunjen mobitel
+- Osnovni pribor prve pomoći
+- Čeona svjetiljka
+- Zaštita od sunca
+- Osobni dokumenti
+
+IZVOR PODATAKA
+Sadržaj je preuzet iz projekta: data/staze.js i stranice Savjeti i oprema (savjeti.html). Ako se ti izvori promijene, ažuriraj ovu bazu prije ponovnog učitavanja u Botpress.
