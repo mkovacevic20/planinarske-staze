@@ -44,15 +44,56 @@
       </div>
     </section>
 
-    <!-- ===== SADRŽAJ: radi Osoba B ===== -->
     <section class="section">
       <div class="container">
-        <h2>Priprema za izlet</h2>
-        <p>TODO (B): tekst o pripremi, vremenu, markacijama…</p>
+        <div class="section-head">
+          <h2><span class="marker"></span>Prije nego kreneš</h2>
+          <p>Dobra priprema čini izlet sigurnijim i ugodnijim. Plan prilagodi vremenu, ruti i vlastitom iskustvu.</p>
+        </div>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Isplaniraj rutu</h3>
+            <p>Odaberi stazu koja odgovara kondiciji svih sudionika. Provjeri duljinu, ukupno trajanje, visinsku razliku i označene putove.</p>
+          </article>
+          <article class="card">
+            <h3>Provjeri uvjete</h3>
+            <p>Prije polaska pogledaj vremensku prognozu i upozorenja za područje. Po lošem vremenu ili zbog nagle promjene uvjeta odgodi izlet.</p>
+          </article>
+          <article class="card">
+            <h3>Javi svoj plan</h3>
+            <p>Obavijesti nekoga kamo ideš i kada se planiraš vratiti. Drži se markirane staze, čuvaj bateriju mobitela, a u nuždi nazovi 112.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
-        <h2>Checklista opreme</h2>
-        <!-- TODO (B): checklista + brojač „spakirano x/y” + reset -->
-        <div id="checklist"></div>
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2><span class="marker"></span>Checklista opreme</h2>
+          <p>Označi što si spakirao/la. Popis je podsjetnik — prilagodi opremu duljini izleta i uvjetima na stazi.</p>
+        </div>
+        <div class="equipment-checklist" id="checklist">
+          <div class="checklist-summary">
+            <p id="checklist-count" role="status" aria-live="polite">Spakirano 0/12</p>
+            <progress id="checklist-progress" max="12" value="0" aria-label="Napredak pakiranja">0 od 12</progress>
+          </div>
+          <ul class="checklist-items">
+            <li><label><input type="checkbox"> Planinarske cipele ili čvrsta obuća</label></li>
+            <li><label><input type="checkbox"> Ruksak prilagođen izletu</label></li>
+            <li><label><input type="checkbox"> Dovoljno vode</label></li>
+            <li><label><input type="checkbox"> Hrana i međuobrok</label></li>
+            <li><label><input type="checkbox"> Slojevita odjeća</label></li>
+            <li><label><input type="checkbox"> Jakna za kišu i vjetar</label></li>
+            <li><label><input type="checkbox"> Karta ili navigacija s izvanmrežnom kartom</label></li>
+            <li><label><input type="checkbox"> Napunjen mobitel</label></li>
+            <li><label><input type="checkbox"> Osnovni pribor prve pomoći</label></li>
+            <li><label><input type="checkbox"> Čeona svjetiljka</label></li>
+            <li><label><input type="checkbox"> Zaštita od sunca</label></li>
+            <li><label><input type="checkbox"> Osobni dokumenti</label></li>
+          </ul>
+          <button type="button" class="btn btn-outline" id="checklist-reset">Poništi odabir</button>
+        </div>
       </div>
     </section>
   </main>

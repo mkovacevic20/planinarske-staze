@@ -44,22 +44,28 @@
       </div>
     </section>
 
-    <!-- ===== SADRŽAJ: radi Osoba B ===== -->
     <section class="section">
       <div class="container">
-        <!-- TODO (B): provjera obrasca u savjeti.js ili kontakt.js -->
+        <div class="section-head">
+          <h2><span class="marker"></span>Pošalji nam poruku</h2>
+          <p>Sva su polja obavezna. Provjerit ćemo unos prije prikaza potvrde.</p>
+        </div>
         <form class="form" id="contact-form" novalidate>
           <label for="ime">Ime</label>
-          <input type="text" id="ime" name="ime">
+          <input type="text" id="ime" name="ime" autocomplete="name" required aria-describedby="ime-error">
+          <span class="field-error" id="ime-error" aria-live="polite"></span>
 
           <label for="email">E-mail</label>
-          <input type="email" id="email" name="email">
+          <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="email-error">
+          <span class="field-error" id="email-error" aria-live="polite"></span>
 
           <label for="poruka">Poruka</label>
-          <textarea id="poruka" name="poruka" rows="5"></textarea>
+          <textarea id="poruka" name="poruka" rows="5" required aria-describedby="poruka-error"></textarea>
+          <span class="field-error" id="poruka-error" aria-live="polite"></span>
 
           <button type="submit" class="btn">Pošalji</button>
         </form>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
       </div>
     </section>
   </main>
