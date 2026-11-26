@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="StazeHR logo">
+  <path d="M2 43 L17 15 L24.5 27 L31 18 L46 43 Z" fill="#1f4434"/>
+  <path d="M17 15 L12.2 24 L15.5 22.5 L17.8 25 L20.6 21.4 Z" fill="#f5f2eb"/>
+  <path d="M31 18 L27.6 23.6 L30.2 22.6 L32.2 24.6 L34.3 23.3 Z" fill="#f5f2eb"/>
+  <circle cx="37" cy="9" r="6.5" fill="#c62f28"/>
+  <circle cx="37" cy="9" r="2.8" fill="#ffffff"/>
+</svg>
