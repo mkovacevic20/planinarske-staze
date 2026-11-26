@@ -91,6 +91,15 @@ function createCard(staza) {
   badge.className = "badge badge-" + staza.tezina;
   badge.textContent = TEZINE[staza.tezina].naziv;
   badge.dataset.tooltip = TEZINE[staza.tezina].opis;
+  badge.tabIndex = 0;
+
+  const tooltip = document.createElement("span");
+  tooltip.className = "badge-tooltip";
+  tooltip.id = "tooltip-" + staza.id;
+  tooltip.setAttribute("role", "tooltip");
+  tooltip.textContent = TEZINE[staza.tezina].opis;
+  badge.setAttribute("aria-describedby", tooltip.id);
+  badge.appendChild(tooltip);
 
   const meta = document.createElement("p");
   meta.className = "trail-meta";

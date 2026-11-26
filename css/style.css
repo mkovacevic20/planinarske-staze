@@ -454,6 +454,7 @@ body.dark .logo-mark { color: var(--color-primary); }
 .trail-meta { color: var(--color-muted); font-size: 0.95rem; margin: 0.6rem 0; }
 
 .badge {
+  position: relative;
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
@@ -467,6 +468,39 @@ body.dark .logo-mark { color: var(--color-primary); }
   letter-spacing: 0.06em;
   text-transform: uppercase;
   cursor: help;
+}
+.badge-tooltip {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  z-index: 20;
+  width: max-content;
+  max-width: min(280px, calc(100vw - 3rem));
+  padding: 0.65rem 0.8rem;
+  border-radius: var(--radius);
+  background: var(--pine-900);
+  color: #fff;
+  box-shadow: var(--shadow-lift);
+  font-family: var(--font-main);
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.4;
+  text-align: left;
+  text-transform: none;
+  white-space: normal;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(-3px);
+  transition: opacity 0.15s, transform 0.15s, visibility 0.15s;
+}
+.badge.tooltip-visible .badge-tooltip,
+.badge:hover .badge-tooltip,
+.badge:focus-visible .badge-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 .badge::before {
   content: "";
