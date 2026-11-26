@@ -1,6 +1,6 @@
 # Dokumentacija chatbota StazeHR
 Chatbot je napravljen za stranicu "planinarske-staze" u sklopu kolegija Tehnologije interaktivnog weba za prvi projektni rad.
-Autori: Michel Kovačević i Noel Uran
+Tim: Michel Kovačević i Noel Uran
 
 ## 1. Vrsta chatbota i razlog odabira
 
